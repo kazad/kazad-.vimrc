@@ -59,7 +59,16 @@ colorscheme wombat3
 noremap <space> 5j<RETURN> 
 noremap <S-space> 5k<RETURN>
 
-" in interactive mode, press ii for escape; and advance cursor one 
+noremap <S-Enter> O<ESC> " awesome, inserts new line without going into insert mode
+noremap <Enter> o<ESC>
+
+" caps should move backwards, don't you think? And b is hard to reach.
+map E ge
+map W b
+
+" in interactive mode, press ii or jj for escape 
+
+:imap jj <esc>
 :imap ii <esc>
 
 " Make Arrow Keys Useful Again {
