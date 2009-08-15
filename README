@@ -1,0 +1,5 @@
+Just my .vimrc file. Symlink:
+
+ln -s ~/.vim/.vimrc .vimrc
+
+(I always forget the order of symlinks; use it like cp, from a to b)
